@@ -10,6 +10,11 @@ Asigna al usuario actual el caso seleccionado. Se notifica al resto de los usuar
 * **bot_id** _str_: Id del canal relacionado al caso
 * **id_servicio** _str_: Identificador relacionado al caso
 
+Además se recibirá esta misma acción cuando un tercero adopte un caso. El cliente deberia borrar todos los mensajes pertenecientes al caso. El evento vendrá con los siguientes valores:
+* **bot** _str_: Id del canal del caso adoptado.
+* **servicio** _str_: Identificador del caso adoptado.
+* **by** _int_: Id del usuario que adopto el caso
+
 ### Eventos
 * **success**: Actualización correcta. Se notifica a todos los usuarios el caso recien adoptado y el id del usuario que realizo la accion.
 
