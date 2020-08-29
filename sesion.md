@@ -8,7 +8,7 @@ El otro modo es con los siguientes campos:
 * **token** _str_: Token de inicio de sesion del usuario.
 
 ### Eventos
-* **success**: Login ok, devuelve en el **payload** el token de entidad del usuario.
+* **success**: Login ok, devuelve en el **payload** un objeto entidad con nombre, token y link de su logo.
 
 
 # setLogueado
