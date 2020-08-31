@@ -17,7 +17,8 @@ Actualiza todos los mensajes relacionados de un caso a estado leido.
 
 
 # sendMsg
-Envía un mensaje al caso y por consiguiente al cliente.
+Envía un mensaje al caso y por consiguiente al cliente. Se le avisará a todas las sesiones activas de este usuario. Además se actualizará el
+estado del caso a respondido.
 * **bot_id** _str_: Id del canal relacionado al caso.
 * **id_servicio** _str_: Identificador relacionado al caso.
 * **mensaje** _str_: Mensaje a enviar.
