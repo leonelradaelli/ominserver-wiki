@@ -47,3 +47,9 @@ Transsfiere un caso a otro usuario de la entidad.
 
 ### Eventos
 * **success**: Transferencia correcta.
+
+# changeState
+Actualiza el estado subjetivo de un caso. Se le avisará a todas las sesiones activas de este usuario.
+* **bot_id** _str_: Id del canal relacionado al caso.
+* **id_servicio** _str_: Identificador relacionado al caso.
+* **tipo** _str_:  Id de tipo de estado subjetivo(tiene que estar activo).
