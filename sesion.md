@@ -19,6 +19,14 @@ Cambia el estado a logueado si/no del usuario.
 * **success**: Actualización correcta.
 
 
+# setPushToken
+Cambia el push token del usuario.
+* **token** _string_: Nuevo token del usuario.
+
+### Eventos
+* **success**: Actualización correcta.
+
+
 # timeout
 Desloguea al usuario y cierra la conexión.
 * **Sin parametros**
