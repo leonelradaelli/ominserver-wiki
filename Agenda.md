@@ -1,0 +1,3 @@
+**getTypes**
+
+**updateType**
