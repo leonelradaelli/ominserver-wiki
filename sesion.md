@@ -27,6 +27,14 @@ Cambia el push token del usuario.
 * **success**: Actualización correcta.
 
 
+# removePushToken
+Elimina un push token del usuario.
+* **token** _string_: Token del usuario a eliminar.
+
+### Eventos
+* **success**: Actualización correcta.
+
+
 # timeout
 Desloguea al usuario y cierra la conexión.
 * **Sin parametros**
