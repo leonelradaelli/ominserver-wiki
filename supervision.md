@@ -2,3 +2,6 @@ Este topic informará a los usuarios con nivel ADMIN y SUPERVISOR sobre diferent
 Actions:
 * adopt
 * closeCase
+* newCase
+* login
+* logout
