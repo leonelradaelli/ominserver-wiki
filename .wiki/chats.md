@@ -8,6 +8,16 @@ Genera una lista con los casos del usuario y los casos que no fueron asignados(e
 
 - **success**: Acción correcta. Se devuelve en el payload una colección de mensajes que representan el home
 
+# getClosedCases
+
+Genera una lista con los casos cerrados del usuario.
+
+- **no necesita parametros**
+
+### Eventos
+
+- **success**: Acción correcta. Se devuelve en el payload una colección de mensajes que representan los casos cerrados
+
 # adopt
 
 Asigna al usuario actual el caso seleccionado. Se notifica al resto de los usuarios de la entidad esta acción.
